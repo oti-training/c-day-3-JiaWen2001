@@ -33,6 +33,10 @@ int main() {
 
     // 5. Print the new value
     printf("New value of temp via pointer: %.1f\n", temp);
+    
+    if(temp == 30.0){
+    printf("Correct implementation! ✓\n");
+    }
     // TODO: Implement the exercise here
     // Hint: Remember to use & for addresses and * for dereferencing. Declare a float, point to it, print value and address, modify via pointer, print again.
 

@@ -37,7 +37,10 @@ int main() {
     update_grade(&student, 90);
 
     printf("Updated: Name: %s, Grade: %d\n", student.name, student.grade);
-
+    
+    if(student.grade == 90){
+    printf("Grade updated! ✓\n");
+    }
 
     return 0;
 }
